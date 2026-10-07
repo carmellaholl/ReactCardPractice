@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Noto+Sans+Bhaiksuki&family=Roboto+Slab:wght@100..900&display=swap");
+
+:root {
+  --teal: #29b282;
+  --light-grey: #f5f6f7;
+  --dark-green: #28910e;
+}
+
+body {
+  background-color: var(--teal);
+  font-family: "Roboto Slab", serif;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 40px;
+  align-items: center;
+}
+
+.card {
+  border: 5px solid var(--dark-green);
+  border-radius: 10px;
+  width: 400px;
+  height: 600px;
+  padding: 20px;
+  margin: 10px 0;
+  background-color: var(--light-grey);
+}
+
+.card-title {
+  border-bottom: 4px solid var(--dark-green);
+  width: fit-content;
+}
